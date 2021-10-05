@@ -37,6 +37,30 @@ aside .logo {
     filter: invert(1);
 }
 
+.spotify-link {
+    font-size: 14px;
+}
+
+.playlist-section h4 {
+    margin-bottom: 10px;
+}
+
+.playlist-section i {
+    padding: 10px;
+    font-size: 25px;
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+
+.list-playlist {
+    list-style: none;
+}
+
+.list-playlist:first-child {
+    padding-top: 20px;
+}
+
 
 
 /* general utilities */
@@ -54,6 +78,10 @@ aside .logo {
     padding-left: 10px;
 }
 
+.pb-20 {
+    padding-bottom: 20px;
+}
+
 .p-x-5 {
     padding: 5px 0;
 }
@@ -66,5 +94,5 @@ aside .logo {
 
 /* Dimensions */
 .ico-h {
-    height: 30px;
+    height: 27px;
 }
