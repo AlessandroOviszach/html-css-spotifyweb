@@ -22,12 +22,13 @@ a {
 }
 
 
-/* tags */
+/* TAGS */
 aside .logo-content h1 {
     padding-left: 7px;
 }
 
-/* utilities */
+/* UTILITIES */
+/* Aside - general */
 aside .logo-content {
     align-items: center;
 }
@@ -37,10 +38,12 @@ aside .logo {
     filter: invert(1);
 }
 
+/* Aside - spotify link section */
 .spotify-link {
     font-size: 14px;
 }
 
+/* Aside - playlist section */
 .playlist-section h4 {
     margin-bottom: 10px;
 }
