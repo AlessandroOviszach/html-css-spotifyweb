@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
-<body>
+<body class="flex">
 
     <!-- side menu (Call to action) -->
     <aside class="p-20">
@@ -33,19 +33,19 @@
 
             <!-- Home -->
             <div class="flex-center p-x-5">
-                <img class="ico-h" src="./img/home.svg" alt="Home icon">
+                <img class="ico-h-27" src="./img/home.svg" alt="Home icon">
                 <a class="p-10"href="#">Home</a>
             </div>
 
             <!-- Search -->
             <div class="flex-center p-x-5">
-                <img class="ico-h" src="./img/search.svg" alt="Search icon">
+                <img class="ico-h-27" src="./img/search.svg" alt="Search icon">
                 <a class="p-10"href="#">Cerca</a>
             </div>
 
             <!-- Your library -->
             <div class="flex-center p-x-5">
-                <img class="ico-h" src="./img/libreria.svg" alt="library icon">
+                <img class="ico-h-27" src="./img/libreria.svg" alt="library icon">
                 <a class="p-10"href="#">La tua libreria</a>
             </div>
 
@@ -79,17 +79,23 @@
         </section>
 
         <!-- User account sec. -->
-        <section class="user-section">
-            <div>
-                <img src="./img/download.svg" alt="download">
+        <section class="user-section flex-x-end">
+            <div class="flex-center">
+                <img class="ico-h-20 flex-x-start" src="./img/download.svg" alt="download">
+
+                <h5 class="p-10">Installa app</h5>
             </div>
         </section>
     </aside>
 
     <!-- banner 'Upgrade' -->
-    <div>
-
-    </div>
+    <section class="banner-container fixed">
+        <div class="banner p-20 flex">
+            <button class="overlay">
+                EFFETTUA L'UPGRADE
+            </button>
+        </div>
+    </section>
 
     <!-- main content -->
     <main>
