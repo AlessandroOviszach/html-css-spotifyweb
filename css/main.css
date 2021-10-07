@@ -115,6 +115,7 @@ aside .logo {
     margin-top: 100px;
 }
 
+/* main top cta */
 main .cta {
     width: 100%;
     margin-bottom: 40px;
@@ -128,6 +129,35 @@ main .cta ul li {
     text-transform: uppercase;
     padding: 0 15px;
 }
+
+
+/* content | Playlist artist ecc... */
+.content {
+    margin: 0 20px 80px 20px;
+}
+
+.recent ul {
+    width: 100%;
+}
+
+.recent ul li.playlist {
+    width: calc(100% / 6 - 40px);
+    flex-direction: column;
+    text-align: center;
+    margin: 0 20px 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer setion */
 .toolbar {
@@ -214,4 +244,22 @@ main .cta ul li {
     padding: 10px 30px;
     border-radius: 50px;
     color: currentColor;
+}
+
+
+/* text */
+.collection-title {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.playlist-name-collection {
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.playlist-subtitle-collection {
+    font-size: 15px;
+    margin-top: 10px;
+    color: gray;
 }
