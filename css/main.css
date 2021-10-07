@@ -30,6 +30,10 @@ a {
     color: currentColor;
 }
 
+ul {
+    list-style: none;
+}
+
 
 /* TAGS */
 aside .logo-content h1 {
@@ -57,7 +61,6 @@ aside .logo {
     flex-grow: 1;
 }
 
-
 .playlist-section h4 {
     margin-bottom: 10px;
 }
@@ -71,13 +74,26 @@ aside .logo {
 }
 
 .list-playlist {
-    list-style: none;
     overflow-y: auto;
     height: 200px;
 }
 
 .list-playlist:first-child {
     padding-top: 20px;
+}
+
+/* user section */
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-section div.profile-container {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #808080;
+    background-image: url('../img/profile.svg')
 }
 
 /* Banner section */
@@ -96,10 +112,22 @@ aside .logo {
 /* Main section */
 
 .banner-space {
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
+main .cta {
+    width: 100%;
+    margin-bottom: 40px;
+}
 
+main .cta ul {
+    justify-content: center;
+}
+
+main .cta ul li {
+    text-transform: uppercase;
+    padding: 0 15px;
+}
 
 /* Footer setion */
 .toolbar {
@@ -148,7 +176,7 @@ aside .logo {
     padding: 20px;
 }
 
-.p-10 {
+.p-l-10 {
     padding-left: 10px;
 }
 
@@ -164,6 +192,10 @@ aside .logo {
 .m-x-30 {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.m-tb-10 {
+    margin: 10px 0;
 }
 
 /* Dimensions */
